@@ -4,10 +4,11 @@ This slack bot uses slack webhook and slash commands to send anonymous messages.
 
 ## Run On Your Channel
 
-In order to run this bot on your own channel, clone this repo:
+In order to run this bot on your own channel, clone this repo and run bundler:
 
 ```sh
-$ git clone 
+$ git clone https://github.com/pruicr/anon-slack-bot.git
+$ bundle install
 ```
 
 Deploy to Heroku:
